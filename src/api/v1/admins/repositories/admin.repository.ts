@@ -83,7 +83,6 @@ export default class AdminRepository {
     if (!admin) return null;
 
     if (updateAdminDto.email) admin.email = updateAdminDto.email;
-    if (updateAdminDto.role) admin.role = updateAdminDto.role;
     if (updateAdminDto.password) {
       admin.password = await PasswordHelpers.hashPassword(
         updateAdminDto.password

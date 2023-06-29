@@ -1,5 +1,3 @@
-import { Role } from "../../../../roles/interfaces/role.model";
-
 export interface CreateAdminDto {
   email: string;
   password: string;
@@ -10,5 +8,4 @@ export interface UpdateAdminDto {
   email?: string;
   password?: string;
   resetPasswordRequestId?: string | undefined | null;
-  role?: Role;
 }
