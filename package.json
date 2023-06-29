@@ -8,14 +8,15 @@
       "type": "git",
       "url": "git+https://github.com/E_TICKET06/E_TICKET-API.git"
     },
-  "scripts": {
-    "prebuild": "rimraf dist",
-    "build": "npx tsc",
-    "dev": "nodemon src/server",
-    "start": "node dist/server",
-    "test": "jest",
-    "test:watch": "jest"
-  },
+    "scripts": {
+      "postinstall": "yarn run build",
+      "prebuild": "rimraf dist",
+      "build": "tsc",
+      "dev": "nodemon src/server",
+      "start": "node dist/server",
+      "test": "jest",
+      "test:watch": "jest"
+    },
 
   "devDependencies": {
     "@babel/core": "^7.20.12",
