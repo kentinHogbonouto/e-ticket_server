@@ -32,10 +32,10 @@ export default function AuthRoutes(authController: AuthController) {
    *             properties:
    *               email:
    *                 type: string
-   *                 example: test-institution@gmail.com
+   *                 example: kentinhogbonouot1@gmail.com
    *               password:
    *                 type: string
-   *                 example: 88889999
+   *                 example: 1234567890
    *     responses:
    *       200:
    *         description: Succesfully authenticated!
