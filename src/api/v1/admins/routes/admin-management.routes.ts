@@ -161,7 +161,7 @@ export default function AdminsManagementRoutes(
    *             properties:
    *               email:
    *                 type: string
-   *                 example: direction.E_TICKET@gmail.com
+   *                 example: direction.e-ticket@gmail.com
    *               password:
    *                 type: string
    *                 example: 1234567890
