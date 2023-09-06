@@ -10,7 +10,6 @@ export default {
     },
     servers: [
       {
-        //url: EnvironmentConfigs.getServerURL(),
         url: "https://e-ticket-backend-jwsc.onrender.com/"
       },
     ],
